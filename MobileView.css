@@ -1,0 +1,68 @@
+@media only screen and (max-width: 1300px) {
+    .page .container {
+        width: 90%;
+    }
+    #page-3 .project {
+        width: 33vw;
+        height: 44vw;
+    }
+    #page-4 .contact {
+        flex-direction: column-reverse;
+    }
+    .contact > div {
+        margin-left: 0;
+    }
+    .contactInfo {
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+
+    .contactInfo li {
+        display: inline-block;
+        margin-left: 1rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+    .home-content figure img {
+        align-items: center;
+    }
+    .services li {
+        flex-basis: 100%;
+    }
+    .services h4 {
+        font-size: 1.3rem;
+    }
+
+    #page-3 .project {
+        width: 75vw;
+        height: 100vw;
+    }
+
+    .project h4 {
+        font-size: 1em;
+    }
+
+    .contactInfo span {
+        font-size: 1.1rem;
+    }
+
+    footer .social-medias {
+        gap: 0;
+    }
+	.skills-details .topic1{
+	padding: 1rem 0;
+    font-size: 0.1rem;
+	color: var(--primaryTextColor);
+ }
+}

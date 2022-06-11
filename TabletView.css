@@ -1,0 +1,87 @@
+@media only screen and (max-width: 1300px) {
+    .page .container {
+        width: 90%;
+    }
+    #page-3 .project {
+        width: 33vw;
+        height: 44vw;
+    }
+    #page-4 .contact {
+        flex-direction: column-reverse;
+    }
+    .contact > div {
+        margin-left: 0;
+    }
+    .contactInfo {
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+
+    .contactInfo li {
+        display: inline-block;
+        margin-left: 1rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .btn {
+        margin-top: 50px;
+    }
+    nav ul {
+        width: 70%;
+    }
+    .nav-links a {
+        font-size: 1rem;
+    }
+    .services li {
+        flex-basis: 80%;
+    }
+    #page-3 .project {
+        width: 60vw;
+        height: 80vw;
+    }
+    .contactInfo li {
+        display: block;
+    }
+    .contact form > .row {
+        flex-direction: column;
+    }
+
+    .contact form .btn {
+        align-self: center;
+    }
+
+    footer {
+        height: 150px;
+        flex-direction: column-reverse;
+    }
+	.skills .skills-details{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .skills-details .text{
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .skills-details .boxes{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .skills-details .topic1{
+	padding: 1rem 0;
+    font-size: 1.7rem;
+	color: var(--primaryTextColor);
+ }
+}

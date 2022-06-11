@@ -1,0 +1,111 @@
+@media only screen and (max-width: 1300px) {
+    .page .container {
+        width: 90%;
+    }
+    #page-3 .project {
+        width: 33vw;
+        height: 44vw;
+    }
+    #page-4 .contact {
+        flex-direction: column-reverse;
+    }
+    .contact > div {
+        margin-left: 0;
+    }
+    .contactInfo {
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+
+    .contactInfo li {
+        display: inline-block;
+        margin-left: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+    nav {
+        height: 70px;
+    }
+
+    nav button {
+        display: inline-block;
+    }
+
+    nav ul {
+        position: fixed;
+        left: 0;
+        top: 0;
+        flex-direction: column;
+		align-items: center;
+        padding: 10% 5%;
+        background-color: #515A5A;
+        width: 50%;
+        height: 100%;
+        gap: 1rem;
+    }
+
+    .hideNavbar {
+        transform: translateX(-100vw);
+    }
+
+    .cover {
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        transition: 0.5s;
+        opacity: 0.5;
+        z-index: 100;
+    }
+
+    .hidenCover {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    #page-1 .aboutMe {
+        flex-direction: column;
+    }
+
+    .aboutMe figure {
+        min-width: 200px;
+        width: 70%;
+    }
+    .services li {
+        flex-basis: 47%;
+    }
+    #page-3 .project {
+        width: 36vw;
+        height: 48vw;
+    }
+
+    .project h4 {
+        font-size: 1.2em;
+    }
+	.skills .skills-details{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .skills-details .text{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .skills-details .boxes{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+
